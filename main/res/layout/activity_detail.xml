@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="cgeindreau2015.ca.guide.ui.detail.DetailActivity">
+
+    <ImageView
+        android:id="@+id/imgv_image"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/photo_restaurant" />
+
+    <TextView
+        android:id="@+id/textv_name"
+        tools:text="NOM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/textv_category"
+        tools:text="CATEGORY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin" />
+
+    <LinearLayout
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_mail"
+            android:onClick="Click"
+            android:tag="mail"
+            tools:text="mail"
+            android:textSize="20sp"
+            android:textColor="@color/colorWhite"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/liste_bouton_email"></Button>
+        <Button
+            android:id="@+id/btn_phone"
+            android:onClick="Click"
+            android:tag="phone"
+            tools:text="phone"
+            android:textSize="20sp"
+            android:textColor="@color/colorWhite"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/liste_bouton_phone"></Button>
+        <Button
+            android:id="@+id/btn_site"
+            android:onClick="Click"
+            android:tag="site"
+            tools:text="site"
+            android:textSize="20sp"
+            android:textColor="@color/colorWhite"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/liste_bouton_site"></Button>
+
+    </LinearLayout>
+</LinearLayout>

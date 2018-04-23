@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Style utilisé dans les layouts -->
+    <style name="SplashTitle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="HomeButtonInfo">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">15sp</item>
+    </style>
+
+    <style name="HomeButtonResto">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style name="HomeButtonHotel">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+
+
+</resources>

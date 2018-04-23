@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Guide</string>
+    <string name="textview_hotel"><![CDATA[Hotel & Restaurant]]></string>
+    <string name="home_btn_info"><b>Guide Hotels Restaurants</b>\nRetrouver les meilleurs Hotels \n&amp; Restaurants</string>
+    <string name="home_btn_hotel">RÉSERVER \nUN HÔTEL</string>
+    <string name="home_btn_restaurant">RÉSERVER \nUN RESTAURANT</string>
+    <string name="listing_textview_title">TITRE LISTING</string>
+    <string name="listing_textview_textelatin">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l\'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</string>
+    <string name="Listing_title_restaurant">LES RESTAURANTS</string>
+    <string name="Listing_title_hotel">LES HOTELS</string>
+</resources>
